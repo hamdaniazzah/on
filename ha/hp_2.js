@@ -1,5 +1,5 @@
 /* redS Start */
-location.hash.indexOf("#me")>-1&&(window.location="/p/about-me.html");
+location.hash.indexOf("#me")>-1&&(window.location.replace("/p/about-me.html"));
 location.hash.indexOf("#blog")>-1&&(window.location="/p/about-blog.html");
 
 location.hash.indexOf("#fb")>-1&&(window.location="https://facebook.com/hamdaniazzah");
